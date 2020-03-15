@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+nav.menuPrincipal{
+	font-family: "arial";
+	font-size: 17pt;
+	font-weight: bold;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+
+}
+
+.menuPrincipal ul{
+	list-style: none;
+	display: flex;
+	text-align: center;
+	border: solid 1px #fff;
+}
+
+.menuPrincipal ul a{
+	width: 100%;
+	text-decoration: none;
+}
+
+.menuPrincipal ul a li{
+	padding: 10px;
+	flex-grow: 1;
+	transition: background-color .2s linear;
+	border-right: solid 1px #fff;
+}
+
+.menuPrincipal ul a li.itemC{
+	color: #ecc21c;
+}
+
+li.itemC{
+	background-color: #555;	
+}
+
+.menuPrincipal ul a li.active{
+	cursor: pointer;
+	background-color: #ecc21c;
+	color: #555;
+}
+
+@media (max-width: 600px){
+	.menuPrincipal ul{
+		display: none;
+	}
+}
+
+
+/* MENU MOBILE */
+
+
+div#colapse{
+	background-color: #666;	
+	padding-top: 5px;
+	position: fixed;
+	width: 100%;
+	opacity:0.97;
+	-moz-opacity: 0.97;
+	z-index: 9999;
+}
+a#menuLink1{
+	font-weight: bold; 
+	color: #555;
+}
+
+@media (min-width: 601px){
+	div#colapse{
+		display: none !important;
+	}
+}
+
+div#colapse ul#ulMobile{
+	width: 500px;
+}
+
+ul#ulMobile li a.itemMobile{
+	background-color: #555;
+	color: #ecc21c;
+}
+
+ul#ulMobile li a.itemActive{
+	background-color: #ecc21c;
+	color: #555;
+}
+
+ul#ulMobile li a.itemMobile:hover{
+	background-color: #444;
+	color: #ecc21c;
+}

@@ -1,0 +1,16 @@
+div.centro{
+	width: auto;
+    	height: auto;
+    	background: #eeeeee;
+    	display: flex;
+    	flex-direction: row;
+    	justify-content: center;
+    	align-items: center;
+    	border: 1px solid #bbb;
+
+}
+#btnLogar{
+	background-color: #555;
+	color: #ffab00;
+	font-weight: bold;
+}

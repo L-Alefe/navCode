@@ -1,0 +1,9 @@
+nav#navPerfil{
+	position: fixed; 
+	z-index: 999; 
+	margin-top: 33px;
+}
+
+div#divConfigPerfil{
+	padding: 15px;
+}

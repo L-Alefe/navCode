@@ -1,0 +1,17 @@
+div#ceu{
+	background-color: #eee;
+	border-radius: 0.6em;
+	
+}
+
+.custom-restricted {
+    height: 150px;
+    width: 150px;
+    border: 1px solid #ccc;
+}
+
+@media (max-width: 1022px){
+	.custom-restricted{
+		width: 100% !important;
+	}
+}
